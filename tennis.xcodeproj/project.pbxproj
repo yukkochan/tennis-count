@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE0834A9211D29F400BEF08B /* ボタン.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0834A8211D29F300BEF08B /* ボタン.png */; };
+		BE0834AB211D5B0C00BEF08B /* input.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0834AA211D5B0C00BEF08B /* input.swift */; };
+		BE0834AD211D72EB00BEF08B /* winner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0834AC211D72EB00BEF08B /* winner.swift */; };
 		BE291FD8211C2656001C1279 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE291FD7211C2656001C1279 /* AppDelegate.swift */; };
 		BE291FDA211C2656001C1279 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE291FD9211C2656001C1279 /* ViewController.swift */; };
 		BE291FDD211C2656001C1279 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE291FDB211C2656001C1279 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE0834A8211D29F300BEF08B /* ボタン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ボタン.png"; sourceTree = "<group>"; };
+		BE0834AA211D5B0C00BEF08B /* input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = input.swift; sourceTree = "<group>"; };
+		BE0834AC211D72EB00BEF08B /* winner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = winner.swift; sourceTree = "<group>"; };
 		BE291FD4211C2656001C1279 /* tennis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tennis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE291FD7211C2656001C1279 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE291FD9211C2656001C1279 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +83,7 @@
 		BE291FCB211C2656001C1279 = {
 			isa = PBXGroup;
 			children = (
+				BE0834A8211D29F300BEF08B /* ボタン.png */,
 				BE291FD6211C2656001C1279 /* tennis */,
 				BE291FEB211C2658001C1279 /* tennisTests */,
 				BE291FF6211C2658001C1279 /* tennisUITests */,
@@ -103,6 +110,8 @@
 				BE291FDE211C2657001C1279 /* Assets.xcassets */,
 				BE291FE0211C2657001C1279 /* LaunchScreen.storyboard */,
 				BE291FE3211C2658001C1279 /* Info.plist */,
+				BE0834AA211D5B0C00BEF08B /* input.swift */,
+				BE0834AC211D72EB00BEF08B /* winner.swift */,
 			);
 			path = tennis;
 			sourceTree = "<group>";
@@ -230,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE291FE2211C2657001C1279 /* LaunchScreen.storyboard in Resources */,
+				BE0834A9211D29F400BEF08B /* ボタン.png in Resources */,
 				BE291FDF211C2657001C1279 /* Assets.xcassets in Resources */,
 				BE291FDD211C2656001C1279 /* Main.storyboard in Resources */,
 			);
@@ -257,6 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE291FDA211C2656001C1279 /* ViewController.swift in Sources */,
+				BE0834AB211D5B0C00BEF08B /* input.swift in Sources */,
+				BE0834AD211D72EB00BEF08B /* winner.swift in Sources */,
 				BE291FD8211C2656001C1279 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
